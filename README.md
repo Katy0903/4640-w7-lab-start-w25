@@ -1,19 +1,19 @@
 # 4640-w7-lab-start-w25
 
 Starter files for the intro to Ansible lab.
-See D2L for lab instructions
+See D2L for lab instructions.
 
 
 ## Required Commands
 
-### create new keys 
+### Create new keys 
 ```ssh-keygen -t rsa -b 2048 -f ~/.ssh/aws -N ""```
 
 **Description**
 
 This command generates a new RSA SSH key pair with 2048-bit encryption. The private key is saved as ~/.ssh/aws and the public key as ~/.ssh/aws.pub. The -N "" option sets an empty passphrase for the key.
 
-### run your playbook
+### Run your playbook
 ```ansible-playbook -i ansible/inventory/hosts.yml ansible/playbook.yml -v```
 
 **Description**
